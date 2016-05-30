@@ -8,26 +8,30 @@ For this project I intend to create a public transport (PT) assistance applicati
 
 
 ### Minimum Viable Product (MVP)
-Alerting the user of upcoming exit movements will be main novel feature and as such forms the basis of the MVP. Additional features may include informing the user of the next step of their itinerary including directions from their exit to continue their route (e.g. Wait 3 minutes at #CURRENT_STOP and get in #NEXT_VEHICLE **or** Cross the street to the stop in the other direction). Taking into account route mutations is the most advanced optional feature, where the itinerary could be adapted dynamically to changing circumstances such as delays or vehicle outage.
+
+##### Alerting the user of upcoming exit movements will be main novel feature and as such forms the basis of the MVP, additional features may include: 
+
+* Informing the user of the next step of their itinerary including directions from their exit to continue their route (e.g. Wait 3 minutes at #CURRENT_STOP and get in #NEXT_VEHICLE **or** Cross the street to the stop in the other direction). 
+* Travel simulation
+* Taking into account route mutations is the most advanced optional feature, where the itinerary could be adapted dynamically to changing circumstances such as delays or vehicle outage.
 
 
 ### Components
 
-###### Route planning interface (from / to)
-
-###### Map view to show route and current location
-
-###### Live route view (overview of upcoming changes)
-
-###### Background functionality (notifications)
+* Route planning interface (from / to)
+* Map view to show route and current location
+* Live route view (overview of upcoming changes)
+* Background functionality (notifications)
 
 
 ### Required data sets and APIs
 
-###### Google Maps API
-###### Google Maps Directions API
-###### iOS Region Monitoring
-###### OpenOV API
+* Google Maps API
+* Google Maps Directions API
+* Google Places API (for Autocomplete, extra resource: https://github.com/watsonbox/ios_google_places_autocomplete)
+* OpenOV API
+* iOS Region Monitoring
+
 
 ### Possible difficulties
 
